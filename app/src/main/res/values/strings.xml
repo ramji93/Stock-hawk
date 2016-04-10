@@ -1,0 +1,26 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+  <string name="app_name" translatable="false">Stock Hawk</string>
+
+  <string name="action_example" translatable="false">Example action</string>
+  <string name="empty_stock_list" translatable="true">No new stock information available</string> //translatable
+  <string name="empty_stock_list_notconnected" translatable="true">No new stock information available. This app requires an internet connection. Check internet connection</string> //translatable
+  <string name="empty_stock_list_server_down" translatable="true">No new stock information available. The server is not returning any stock data</string> //translatable
+  <string name="empty_stock_list_stock_invalid" translatable="true">The stock just entered does not exist.</string> //translatable
+  <string name="empty_stock_list_server_invalid" translatable="true">No new stock information available. The server is not returning valid stock data. Please check for updated version</string> //translatable
+  <string name="stock_out_dated" translatable="true">Stock information may be out of date</string>
+  <string name="action_settings" translatable="true">Settings</string>
+  <string name="action_change_units" translatable="true">Change Units</string>
+  <string name="symbol_search" translatable="true">Symbol Search</string>
+  <string name="content_test" translatable="true">Search for a Stock Symbol</string>
+  <string name="input_hint" translatable="false">FB</string>
+  <string name="input_prefill" translatable="false"></string>
+  <string name="network_toast" translatable="true">Uh-oh! This app requires an internet connection</string>
+  <string name="widget_label" translatable="false">stockhawk widget</string>
+  <string name="symbol_desc" translatable="true">Stock name: <xliff:g id="name">%1$s</xliff:g></string>
+  <string name="bid_price_desc" translatable="true">Bid price: <xliff:g id="price">%1$s</xliff:g></string>
+  <string name="change_desc" translatable="true">Change: <xliff:g id="change">%1$s</xliff:g></string>
+  <string name="menu_change_units_desc" translatable="true">Change Units</string>
+  <string name="menu_settings_desc" translatable="true">Settings</string>
+  <string name="stock_state" translatable="false">stock state</string>
+  <string name="add_button_desc" translatable="true">Add new stock</string>
+</resources>
